@@ -51,10 +51,10 @@ const Read = () => {
             {data?.map((ele)=>(
             <div key={ele._id}>
              <div className="col">
-             <div className="card">
+             <div className="card c1">
               <div className="card-body">
                 
-                <h4 className="card-title">{ele.topic} </h4>
+                <h4 className="card-title titile">{ele.topic} </h4>
                 <h6 className="card-subtitle mb-2 ">{ele.data}</h6>
                 {/* <p className="card-subtitle" >{ele.data1}</p> */}
                 <a

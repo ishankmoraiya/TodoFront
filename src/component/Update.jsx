@@ -62,8 +62,8 @@ const Update = () => {
        getSingleUserdata();
      },[]);
   return (
-    <div className='container my-2'>
-        <div className="note">
+    <div className='container my-2 note2'>
+        <div className="note ">
           {error && <div className="alert alert-danger" >{error}</div>}
  
           <form onSubmit={handleEdit}>

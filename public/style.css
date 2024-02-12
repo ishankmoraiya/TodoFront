@@ -46,9 +46,7 @@
     color: gray;
   }
   .note {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
+   
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 2px 5px #ee7e7e;
@@ -58,7 +56,12 @@
     float: left;
   }
   .note1{
-    margin-top: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  .note2{
+    padding-top: 30px;
     display: flex;
     justify-content: center;
   }
@@ -86,7 +89,12 @@
   }
   .row{
     padding: 50px;
+    border-radius: 10px;
+    background: hsla(54, 72%, 56%, 0.555);
     
+  }
+  .col{
+    margin: 10px;
   }
   .button{
     border-radius: 10px;
