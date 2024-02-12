@@ -12,12 +12,19 @@
   }
   
   header {
+    height: 85px;
     background-color: #f5ba13;
     margin: auto -16px;
-    padding: 16px 32px;
+    padding: 0px 16px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
   }
-  
+  .flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+    
+  }
   .h11 {
     color: #fff;
     font-family: "McLaren", cursive;
@@ -42,11 +49,16 @@
    
     background: #fff;
     border-radius: 10px;
-    box-shadow: 0 2px 5px #ccc;
+    box-shadow: 0 2px 5px #ee7e7e;
     padding: 15px;
     width: 240px;
     margin: 20px;
     float: left;
+  }
+  .note1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
   }
   .note h1 {
     font-size: 1.1em;
@@ -75,9 +87,9 @@
     
   }
   .button{
-    border-radius: 30px;
-    font-size: large;
-    margin-left: 40px ;
+    border-radius: 10px;
+    font-size: medium;
+    margin-left: 10px;
     padding: 10x ;
     box-shadow: inset;
     background-color: white;

@@ -42,7 +42,7 @@ const Note=()=>{
 
     };
     return(
-        
+       <div className="note1">
         <div className="note">
           {error && <div className="alert alert-danger" >{error}</div>}
  
@@ -60,7 +60,7 @@ const Note=()=>{
          
 
         </div>
-        
+     </div> 
 
     );
 }

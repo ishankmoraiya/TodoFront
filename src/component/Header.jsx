@@ -12,13 +12,14 @@ export const Header=()=>{
             Too Doo !!!
             
         </Link>
-        <div className="collapse navbar-collapse" id="navbarNav">
+        <div className="collapse navbar-collapse flex" id="navbarNav">
         <ul className="navbar-nav">
-          {/* <li className="nav-item active">
-            <a className="nav-link" href="#">
-              Home <span className="sr-only">(current)</span>
-            </a>
-          </li> */}
+          
+          <li className="nav-item ">
+            <Link to="/" className="nav-link button" >
+              Home
+            </Link>
+          </li>
           <li className="nav-item">
             <Link to="/note" className="nav-link button" >
               Create Post
@@ -27,6 +28,16 @@ export const Header=()=>{
           <li className="nav-item">
             <Link to="/read"  className="nav-link button" >
               All post
+            </Link>
+          </li>
+          <li className="nav-item ">
+            <Link to="/" className="nav-link button" >
+              Log in
+            </Link>
+          </li>
+          <li className="nav-item ">
+            <Link to="/" className="nav-link button" >
+              Sign up
             </Link>
           </li>
           
