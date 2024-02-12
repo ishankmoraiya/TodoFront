@@ -46,7 +46,9 @@
     color: gray;
   }
   .note {
-   
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 2px 5px #ee7e7e;
